@@ -15,6 +15,9 @@ gen_headers_exclude_srcs_arm = [
 ]
 
 gen_headers_out_arm = [
+    "linux/watch_queue.h",
+    "linux/wireguard.h",
+    "linux/close_range.h",
 
     // Matching generated-y:
 
@@ -1015,7 +1018,6 @@ gen_headers_out_arm = [
     "camera/media/cam_lrme.h",
     "camera/media/cam_ope.h",
     "camera/media/cam_req_mgr.h",
-    "camera/media/cam_sensor.h",
     "camera/media/cam_sync.h",
     "camera/media/cam_tfe.h",
     "display/drm/msm_drm_pp.h",
